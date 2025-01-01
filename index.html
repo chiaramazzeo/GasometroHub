@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Run</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: url('your-image.jpg') no-repeat center center/cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .top-text {
+      width: 90%;
+      max-width: 800px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .top-text div {
+      font-size: 1rem;
+    }
+
+    .top-text::before,
+    .top-text::after {
+      content: "";
+      flex-grow: 1;
+      height: 1px;
+      background-color: white;
+      margin: 0 10px;
+    }
+
+    .title {
+      font-size: 3rem;
+      font-weight: bold;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-text">
+      <div>Happening</div>
+      <div>Latest Join!</div>
+    </div>
+    <div class="title">
+      Global Run, <br> September 20: <br> Take Action.
+    </div>
+    <div class="subtitle">
+      5K Relay | 20 Sep 2024, Worldwide
+    </div>
+  </div>
+</body>
+</html>
